@@ -8,6 +8,7 @@ import 'package:dots_indicator/dots_indicator.dart';
 import 'package:introduction_screen/src/model/page_view_model.dart';
 import 'package:introduction_screen/src/ui/intro_button.dart';
 import 'package:introduction_screen/src/ui/intro_page.dart';
+import 'package:flutterflameprojectalpha/localization/demo_localization.dart';
 
 class IntroductionScreen extends StatefulWidget {
   /// All pages of the onboarding
