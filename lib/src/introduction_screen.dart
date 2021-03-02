@@ -264,7 +264,7 @@ class IntroductionScreenState extends State<IntroductionScreen> {
                     ? RaisedButton(
                         padding: EdgeInsets.all(10),
                         color: Colors.grey[900],
-                        shape: StadiumBorder(),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
                         child: Text(
                           DemoLocalization.of(context)
                               .getTranslatedValue('menu_gotit'),
